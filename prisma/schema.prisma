@@ -17,6 +17,7 @@ model Pet {
   adocoes        Adocao[]
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
+  fotoUrl        String?
 
   @@map("pets")
 }
